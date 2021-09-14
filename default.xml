@@ -14,6 +14,17 @@
   <remote name="los"
           fetch="https://github.com/LineageOS"
           revision="refs/heads/lineage-17.1" />
+  
+  <remote name="arrow"
+          fetch="https://github.com/ArrowOS"
+          review="https://review.arrowos.net/"
+          revision="refs/heads/arrow-11.0" />
+    
+  <remote name="ginkgo"
+          fetch="https://github.com/Kitsunejasutin" />
+
+  <remote name="Octavi-OS-Devices"
+          fetch="https://github.com/OctaviOS-Devices" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -851,5 +862,8 @@
 
   <!-- LineageOS -->
   <include name="snippets/lineage.xml" />
+
+  <!-- Ginkgo -->
+  <include name="snippets/ginkgo.xml" />
 
 </manifest>
